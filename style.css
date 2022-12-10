@@ -38,12 +38,13 @@ body {
     content: "\201D";
   }
 
-  p.name {
+  h1.name {
     font-size: 1.1rem;
     font-weight: bold;
+    text-align: center;
   }
 
-  p.name span {
+  h1.name span {
     display: block;
     font-weight: normal;
     color: var(--GrayishBlue);
@@ -66,12 +67,14 @@ body {
   p.caption::after {
     content: "\201D";
   }
-  p.name {
+
+  h1.name {
     font-size: 1.3rem;
     font-weight: bold;
+    text-align: center;
   }
 
-  p.name span {
+  h1.name span {
     display: block;
     font-weight: normal;
     color: var(--GrayishBlue);
@@ -94,12 +97,12 @@ body {
     content: "\201D";
   }
 
-  p.name {
+  h1.name {
     font-size: 1.1rem;
     font-weight: bold;
   }
 
-  p.name span {
+  h1.name span {
     font-weight: normal;
     color: var(--GrayishBlue);
   }
